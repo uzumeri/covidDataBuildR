@@ -37,3 +37,6 @@ vignettes/*.pdf
 
 #Windows System Files
 *.ini
+
+#Data Files
+data/
