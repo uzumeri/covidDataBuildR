@@ -46,9 +46,9 @@ write.csv(gmusa, "./data/gmusa.csv")
 write.csv(gmstate, "./data/gmstate.csv")
 write.csv(gmcounty, "./data/gmcounty.csv")
 
-setwd("G:/My Drive/Statistical Analysis/RCOVID/COVIDDataAssembly")
+setwd("~/github/covidDataBuildR")
 
-d <- read.csv("D:/SafeGraphExtracted/social-distancing/v2/2020-05-12-social-distancing.csv")
-
-cbgcodes <- read.csv("./data/cbg_fips_codes.csv")
+# d <- read.csv("D:/SafeGraphExtracted/social-distancing/v2/2020-05-12-social-distancing.csv")
+# 
+# cbgcodes <- read.csv("./data/cbg_fips_codes.csv")
 
