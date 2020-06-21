@@ -2,7 +2,7 @@ library(tidyverse)
 library(choroplethrMaps)
 library(jsonlite)
 
-setwd("G:/My Drive/Statistical Analysis/RCOVID/COVIDDataAssembly")
+setwd("C:/GitHub/covidDataBuildR")
 
 cvt <- fromJSON("https://covidtracking.com/api/v1/states/daily.json")
 cvt$date <- as.Date(as.character(cvt$date), format="%Y%m%d")
@@ -45,10 +45,4 @@ gmcounty <- gmcounty %>%
 write.csv(gmusa, "./data/gmusa.csv")
 write.csv(gmstate, "./data/gmstate.csv")
 write.csv(gmcounty, "./data/gmcounty.csv")
-
-setwd("~/github/covidDataBuildR")
-
-# d <- read.csv("D:/SafeGraphExtracted/social-distancing/v2/2020-05-12-social-distancing.csv")
-# 
-# cbgcodes <- read.csv("./data/cbg_fips_codes.csv")
 

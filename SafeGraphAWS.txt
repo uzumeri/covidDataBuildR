@@ -1,0 +1,14 @@
+Access Key ID:
+RBVFZ4A1AD23NN9T1H1Z
+Secret Access Key:
+AiSMXjz9LTDe5SDb1VhriOop7O27PRynwV39iPAO
+This key expires in 30 days
+Setup
+# Type the following line into your terminal
+aws configure --profile safegraphws
+
+# Then answer the prompts with these values
+Access Key: RBVFZ4A1AD23NN9T1H1Z
+Secret Access Key: AiSMXjz9LTDe5SDb1VhriOop7O27PRynwV39iPAO
+Default region name: us-east-1
+Default output format: [leave blank]
